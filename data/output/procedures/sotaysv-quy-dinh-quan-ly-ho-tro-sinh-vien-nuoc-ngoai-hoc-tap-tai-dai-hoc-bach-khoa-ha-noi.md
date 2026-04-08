@@ -1,0 +1,30 @@
+---
+title: "Sổ tay SV: 5. Quy định quản lý, hỗ trợ sinh viên nước ngoài học tập tại Đại học Bách khoa Hà Nội"
+url: "https://sv-ctt.hust.edu.vn#/so-tay-sv/116/quy-dinh-quan-ly-ho-tro-sinh-vien-nuoc-ngoai-hoc-tap-tai-dai-hoc-bach-khoa-ha-noi"
+categories: ["Sổ tay sinh viên", "Thủ tục hành chính"]
+source_type: "handbook"
+scrape_date: "2026-04-08"
+extraction_method: "playwright_spa"
+---
+## Quy định quản lý, hỗ trợ sinh viên nước ngoài học tập tại Đại học Bách khoa Hà Nội
+
+*Cập nhật: 02:36 02/12/2025*
+
+- Quy định này quy định về trách nhiệm của các đơn vị, cá nhân có liên quan trong Đại học Bách khoa Hà Nội (sau đây viết tắt là ĐHBK Hà Nội hoặc Đại học) đối với công tác quản lý và hỗ trợ người nước ngoài (là người không mang quốc tịch Việt Nam hoặc là người Việt Nam mang hộ chiếu nước ngoài) đến học tập, thực tập, nghiên cứu, trao đổi tại ĐHBK Hà Nội;
+
+- Quy định này quy định về quyền lợi và trách nhiệm của người nước ngoài trong quá trình học tập, thực tập, tham quan, trao đổi tại ĐHBK Hà Nội.
+
+**\* Đối tượng áp dụng**
+
+Quy định này áp dụng đối với người nước ngoài đến học tập, thực tập, nghiên cứu, trao đổi tại ĐHBK Hà Nội (sau đây gọi chung là Lưu học sinh và viết tắt là LHS) và được chia thành các nhóm như sau:
+
+a) Lưu học sinh Hiệp định: Là sinh viên nước ngoài được tiếp nhận học tập dài hạn tại ĐHBK Hà Nội theo các Hiệp định, thoả thuận của Chính phủ Việt Nam với các đối tác nước ngoài;
+
+b) Lưu học sinh ngoài Hiệp định: Là sinh viên nước ngoài được tiếp nhận học tập dài hạn hoặc học tích lũy tín chỉ (từ 1 học kỳ trở lên) tại ĐHBK Hà Nội theo thỏa thuận, hợp đồng đào tạo ký kết giữa ĐHBK Hà Nội với cá nhân sinh viên hoặc các tổ chức, cá nhân gửi đào tạo, tài trợ học bổng cho sinh viên;
+
+c) Lưu học sinh trao đổi: Là người học nước ngoài đến thực tập, nghiên cứu, trao đổi theo các thỏa thuận, dự án, chương trình hợp tác của ĐHBK Hà Nội hoặc các đơn vị thuộc/trực thuộc ĐHBK Hà Nộ
+
+Quy định về việc quản lý và hỗ trợ sinh viên nước ngoài/ Regulations On the Management and Support of International Students at Hanoi University of Science and Technology:
+
+- Bản tiếng Việt: [**Xem tại đây;**](https://drive.google.com/file/d/1kbAR6K4iKNMyOp0LKF9d7sOEI8FqF3im/view?usp=sharing)**​**
+- For English version: please**[click here](https://docs.google.com/document/d/1PgU_N9d9y-SxsCWRGTcDScyt-9x_KzaJ/edit?usp=sharing&ouid=109611688586793764116&rtpof=true&sd=true)**

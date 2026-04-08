@@ -1,0 +1,726 @@
+{
+  "generated_at": "2026-04-08T18:41:40.743653",
+  "total_items": 58,
+  "items": [
+    {
+      "title": "Ban giám hiệu Trường",
+      "slug": "ban-giam-hieu-truong",
+      "url": "https://soict.hust.edu.vn/ban-giam-hieu-truong.html",
+      "last_modified": "2024-12-03T11:48:34",
+      "categories": [
+        "Ban Lãnh đạo Trường",
+        "Giới thiệu"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\ban-giam-hieu-truong.md",
+      "content_length": 616
+    },
+    {
+      "title": "Ban Lãnh đạo Trường qua các thời kỳ",
+      "slug": "ban-lanh-dao-truong-qua-cac-thoi-ky",
+      "url": "https://soict.hust.edu.vn/ban-lanh-dao-truong-qua-cac-thoi-ky.html",
+      "last_modified": "2024-11-01T14:41:34",
+      "categories": [
+        "Ban Lãnh đạo Trường",
+        "Giới thiệu"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\ban-lanh-dao-truong-qua-cac-thoi-ky.md",
+      "content_length": 1968
+    },
+    {
+      "title": "Các Tổ chức đoàn thể",
+      "slug": "to-chuc-doan-the",
+      "url": "https://soict.hust.edu.vn/to-chuc-doan-the.html",
+      "last_modified": "2025-11-22T13:28:08",
+      "categories": [
+        "Giới thiệu"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\to-chuc-doan-the.md",
+      "content_length": 1595
+    },
+    {
+      "title": "Danh sách cán bộ",
+      "slug": "danh-sach-can-bo-vpt",
+      "url": "https://soict.hust.edu.vn/danh-sach-can-bo-vpt.html",
+      "last_modified": "2024-02-26T14:38:18",
+      "categories": [
+        "Giới thiệu"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\danh-sach-can-bo-vpt.md",
+      "content_length": 1712
+    },
+    {
+      "title": "Liên chi đoàn Viện",
+      "slug": "lien-chi-doan-vien",
+      "url": "https://soict.hust.edu.vn/lien-chi-doan-vien.html",
+      "last_modified": "2020-02-06T15:32:10",
+      "categories": [
+        "Giới thiệu"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\lien-chi-doan-vien.md",
+      "content_length": 258
+    },
+    {
+      "title": "Đảng ủy – Hội đồng Trường",
+      "slug": "dang-uy-truong",
+      "url": "https://soict.hust.edu.vn/dang-uy-truong.html",
+      "last_modified": "2025-11-22T13:28:45",
+      "categories": [
+        "Giới thiệu"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\dang-uy-truong.md",
+      "content_length": 4105
+    },
+    {
+      "title": "Hội đồng Viện",
+      "slug": "hoi-dong-vien",
+      "url": "https://soict.hust.edu.vn/hoi-dong-vien.html",
+      "last_modified": "2020-02-06T15:34:50",
+      "categories": [
+        "Giới thiệu"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\hoi-dong-vien.md",
+      "content_length": 2014
+    },
+    {
+      "title": "Ban giám hiệu",
+      "slug": "ban-giam-hieu",
+      "url": "https://soict.hust.edu.vn/ban-giam-hieu.html",
+      "last_modified": "2024-11-20T11:27:21",
+      "categories": [
+        "Giới thiệu"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\ban-giam-hieu.md",
+      "content_length": 1222
+    },
+    {
+      "title": "Cơ cấu tổ chức",
+      "slug": "co-cau-to-chuc",
+      "url": "https://soict.hust.edu.vn/co-cau-to-chuc.html",
+      "last_modified": "2025-10-09T10:21:31",
+      "categories": [
+        "Giới thiệu"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\co-cau-to-chuc.md",
+      "content_length": 642
+    },
+    {
+      "title": "Thông tin tuyển sinh 2026",
+      "slug": "thong-tin-tuyen-sinh-2026",
+      "url": "https://soict.hust.edu.vn/thong-tin-tuyen-sinh-2026.html",
+      "last_modified": "2026-03-07T14:03:22",
+      "categories": [
+        "Tuyển sinh"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\thong-tin-tuyen-sinh-2026.md",
+      "content_length": 7770
+    },
+    {
+      "title": "Thông tin tuyển sinh 2025",
+      "slug": "thong-tin-tuyen-sinh-2025",
+      "url": "https://soict.hust.edu.vn/thong-tin-tuyen-sinh-2025.html",
+      "last_modified": "2025-07-07T10:21:02",
+      "categories": [
+        "Tuyển sinh"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\thong-tin-tuyen-sinh-2025.md",
+      "content_length": 9508
+    },
+    {
+      "title": "Thông tin tuyển sinh 2024",
+      "slug": "thong-tin-tuyen-sinh-2024",
+      "url": "https://soict.hust.edu.vn/thong-tin-tuyen-sinh-2024.html",
+      "last_modified": "2025-06-20T16:10:25",
+      "categories": [
+        "Tuyển sinh"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\thong-tin-tuyen-sinh-2024.md",
+      "content_length": 6683
+    },
+    {
+      "title": "Thông tin tuyển sinh 2023",
+      "slug": "thong-tin-tuyen-sinh-2023",
+      "url": "https://soict.hust.edu.vn/thong-tin-tuyen-sinh-2023.html",
+      "last_modified": "2024-03-25T15:19:10",
+      "categories": [
+        "Tuyển sinh"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\thong-tin-tuyen-sinh-2023.md",
+      "content_length": 6674
+    },
+    {
+      "title": "Các chương trình cao học của Trường CNTT&TT năm 2022",
+      "slug": "huong-dan-dang-ky-xet-tuyen-thac-sy-2022",
+      "url": "https://soict.hust.edu.vn/huong-dan-dang-ky-xet-tuyen-thac-sy-2022.html",
+      "last_modified": "2022-11-16T16:49:42",
+      "categories": [
+        "Hệ thạc sỹ",
+        "Thông báo",
+        "Tuyển sinh"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\huong-dan-dang-ky-xet-tuyen-thac-sy-2022.md",
+      "content_length": 4577
+    },
+    {
+      "title": "Hỏi đáp về tuyển sinh",
+      "slug": "hoi-dap-ve-tuyen-sinh",
+      "url": "https://soict.hust.edu.vn/hoi-dap-ve-tuyen-sinh.html",
+      "last_modified": "2025-03-19T15:33:24",
+      "categories": [
+        "Tuyển sinh"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\hoi-dap-ve-tuyen-sinh.md",
+      "content_length": 42690
+    },
+    {
+      "title": "Thông tin tuyển sinh 2022",
+      "slug": "tuyen-sinh-2022",
+      "url": "https://soict.hust.edu.vn/tuyen-sinh-2022.html",
+      "last_modified": "2024-03-26T15:46:13",
+      "categories": [
+        "Tuyển sinh"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\tuyen-sinh-2022.md",
+      "content_length": 7935
+    },
+    {
+      "title": "Giải thích thông tin ngành đào tạo mùa tuyển sinh 2019",
+      "slug": "giai-thich-nganh-dao-tao",
+      "url": "https://soict.hust.edu.vn/giai-thich-nganh-dao-tao.html",
+      "last_modified": "2019-06-15T18:45:40",
+      "categories": [
+        "Thông báo",
+        "Tuyển sinh"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\giai-thich-nganh-dao-tao.md",
+      "content_length": 6141
+    },
+    {
+      "title": "Tuyển sinh đào tạo ngắn hạn",
+      "slug": "tuyen-sinh-dao-tao-ngan-han",
+      "url": "https://soict.hust.edu.vn/tuyen-sinh-dao-tao-ngan-han.html",
+      "last_modified": "2022-06-03T19:28:41",
+      "categories": [
+        "Tuyển sinh"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\tuyen-sinh-dao-tao-ngan-han.md",
+      "content_length": 974
+    },
+    {
+      "title": "Điểm chuẩn tham khảo",
+      "slug": "diem-chuan-tham-khao",
+      "url": "https://soict.hust.edu.vn/diem-chuan-tham-khao.html",
+      "last_modified": "2026-03-09T11:51:29",
+      "categories": [
+        "Tuyển sinh"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\diem-chuan-tham-khao.md",
+      "content_length": 2187
+    },
+    {
+      "title": "Kiến tạo tương lai với SoICT",
+      "slug": "kien-tao-tuong-lai-voi-soict",
+      "url": "https://soict.hust.edu.vn/kien-tao-tuong-lai-voi-soict.html",
+      "last_modified": "2022-06-03T19:21:39",
+      "categories": [
+        "Tuyển sinh"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\kien-tao-tuong-lai-voi-soict.md",
+      "content_length": 7733
+    },
+    {
+      "title": "CHƯƠNG TRÌNH ĐÀO TẠO ELITECH TÀI NĂNG KHOA HỌC MÁY TÍNH",
+      "slug": "chuong-trinh-dao-tao-elitech-tai-nang-khoa-hoc-may-tinh",
+      "url": "https://soict.hust.edu.vn/chuong-trinh-dao-tao-elitech-tai-nang-khoa-hoc-may-tinh.html",
+      "last_modified": "2025-03-31T14:30:47",
+      "categories": [
+        "Hệ đại học"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\chuong-trinh-dao-tao-elitech-tai-nang-khoa-hoc-may-tinh.md",
+      "content_length": 4925
+    },
+    {
+      "title": "CHƯƠNG TRÌNH ELITECH AN TOÀN KHÔNG GIAN SỐ (CYBER SECURITY– IT-E15)",
+      "slug": "chuong-trinh-elitech-an-toan-khong-gian-so-cyber-security-it-e15",
+      "url": "https://soict.hust.edu.vn/chuong-trinh-elitech-an-toan-khong-gian-so-cyber-security-it-e15.html",
+      "last_modified": "2026-03-08T07:48:00",
+      "categories": [
+        "Hệ đại học"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\chuong-trinh-elitech-an-toan-khong-gian-so-cyber-security-it-e15.md",
+      "content_length": 6886
+    },
+    {
+      "title": "Chương trình ELITECH Công nghệ Thông tin Việt – Pháp",
+      "slug": "chuong-trinh-elitech-cong-nghe-thong-tin-viet-phap",
+      "url": "https://soict.hust.edu.vn/chuong-trinh-elitech-cong-nghe-thong-tin-viet-phap.html",
+      "last_modified": "2026-03-09T15:23:40",
+      "categories": [
+        "Hệ đại học"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\chuong-trinh-elitech-cong-nghe-thong-tin-viet-phap.md",
+      "content_length": 8471
+    },
+    {
+      "title": "Chương trình Đào tạo Quốc tế về CNTT với Đại học Victoria Wellington (New Zealand)",
+      "slug": "chuong-trinh-vuw-it-niu-di-lan",
+      "url": "https://soict.hust.edu.vn/chuong-trinh-vuw-it-niu-di-lan.html",
+      "last_modified": "2021-08-19T23:24:54",
+      "categories": [
+        "Hệ đại học"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\chuong-trinh-vuw-it-niu-di-lan.md",
+      "content_length": 5215
+    },
+    {
+      "title": "Chương trình Công nghệ Thông tin liên kết Đại học La Trobe (Úc)",
+      "slug": "chuong-trinh-ltu-uc",
+      "url": "https://soict.hust.edu.vn/chuong-trinh-ltu-uc.html",
+      "last_modified": "2021-08-19T23:24:54",
+      "categories": [
+        "Hệ đại học"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\chuong-trinh-ltu-uc.md",
+      "content_length": 3591
+    },
+    {
+      "title": "Chương trình Khoa học Máy tính (mã tuyển sinh: IT1)",
+      "slug": "chuong-trinh-khoa-hoc-may-tinh-ma-tuyen-sinh-it1",
+      "url": "https://soict.hust.edu.vn/chuong-trinh-khoa-hoc-may-tinh-ma-tuyen-sinh-it1.html",
+      "last_modified": "2026-03-08T07:46:05",
+      "categories": [
+        "Hệ đại học"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\chuong-trinh-khoa-hoc-may-tinh-ma-tuyen-sinh-it1.md",
+      "content_length": 6197
+    },
+    {
+      "title": "Chương trình ELITECH Khoa học Dữ liệu và Trí tuệ Nhân tạo (DS&AI – IT-E10)",
+      "slug": "chuong-trinh-cu-nhan-khoa-hoc-du-lieu-va-tri-tue-nhan-tao-dsai-it-e10",
+      "url": "https://soict.hust.edu.vn/chuong-trinh-cu-nhan-khoa-hoc-du-lieu-va-tri-tue-nhan-tao-dsai-it-e10.html",
+      "last_modified": "2026-03-08T07:47:27",
+      "categories": [
+        "Hệ đại học"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\chuong-trinh-cu-nhan-khoa-hoc-du-lieu-va-tri-tue-nhan-tao-dsai-it-e10.md",
+      "content_length": 6653
+    },
+    {
+      "title": "Chương trình ELITECH Công nghệ Thông tin Toàn cầu (Global ICT – IT-E7)",
+      "slug": "chuong-trinh-ky-su-cong-nghe-thong-tin-toan-cau-global-ict",
+      "url": "https://soict.hust.edu.vn/chuong-trinh-ky-su-cong-nghe-thong-tin-toan-cau-global-ict.html",
+      "last_modified": "2026-03-08T07:49:03",
+      "categories": [
+        "Hệ đại học"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\chuong-trinh-ky-su-cong-nghe-thong-tin-toan-cau-global-ict.md",
+      "content_length": 6285
+    },
+    {
+      "title": "Chương trình ELITECH Công nghệ thông tin Việt – Nhật (HEDSPI – IT-E6)",
+      "slug": "chuong-trinh-ky-su-cong-nghe-thong-tin-viet-nam-nhat-ban-hedspi",
+      "url": "https://soict.hust.edu.vn/chuong-trinh-ky-su-cong-nghe-thong-tin-viet-nam-nhat-ban-hedspi.html",
+      "last_modified": "2026-03-08T07:48:22",
+      "categories": [
+        "Hệ đại học"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\chuong-trinh-ky-su-cong-nghe-thong-tin-viet-nam-nhat-ban-hedspi.md",
+      "content_length": 6305
+    },
+    {
+      "title": "Chương trình đào tạo Công nghệ thông tin – Kỹ thuật Máy tính (IT2)",
+      "slug": "chuong-trinh-dao-tao-cong-nghe-thong-tin-ky-thuat-may-tinh-it2",
+      "url": "https://soict.hust.edu.vn/chuong-trinh-dao-tao-cong-nghe-thong-tin-ky-thuat-may-tinh-it2.html",
+      "last_modified": "2026-03-08T07:46:51",
+      "categories": [
+        "Hệ đại học"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\chuong-trinh-dao-tao-cong-nghe-thong-tin-ky-thuat-may-tinh-it2.md",
+      "content_length": 11886
+    },
+    {
+      "title": "Chương trình đào tạo ĐH 1",
+      "slug": "chuong-trinh-dao-tao-dh-1",
+      "url": "https://soict.hust.edu.vn/chuong-trinh-dao-tao-dh-1.html",
+      "last_modified": "2021-08-19T23:25:02",
+      "categories": [
+        "Hệ đại học"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\chuong-trinh-dao-tao-dh-1.md",
+      "content_length": 169
+    },
+    {
+      "title": "Kế hoạch nộp hồ sơ bảo vệ Luận văn cao học đợt tháng 10/2022",
+      "slug": "ke-hoach-nop-ho-so-bao-ve-luan-van-cao-hoc-dot-thang-10-2022",
+      "url": "https://soict.hust.edu.vn/ke-hoach-nop-ho-so-bao-ve-luan-van-cao-hoc-dot-thang-10-2022.html",
+      "last_modified": "2022-09-14T01:48:41",
+      "categories": [
+        "Hệ thạc sỹ",
+        "Thông báo"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\ke-hoach-nop-ho-so-bao-ve-luan-van-cao-hoc-dot-thang-10-2022.md",
+      "content_length": 1568
+    },
+    {
+      "title": "Chương trình đào tạo chuyên sâu Kỹ sư Trí tuệ nhân tạo tạo sinh (Generative AI)",
+      "slug": "chuong-trinh-dao-tao-chuyen-sau-ky-su-tri-tue-nhan-tao-tao-sinh-generative-ai",
+      "url": "https://soict.hust.edu.vn/chuong-trinh-dao-tao-chuyen-sau-ky-su-tri-tue-nhan-tao-tao-sinh-generative-ai.html",
+      "last_modified": "2024-05-17T00:21:54",
+      "categories": [
+        "Hệ kỹ sư"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\chuong-trinh-dao-tao-chuyen-sau-ky-su-tri-tue-nhan-tao-tao-sinh-generative-ai.md",
+      "content_length": 7107
+    },
+    {
+      "title": "Thực tập doanh nghiệp",
+      "slug": "thuc-tap-doanh-nghiep",
+      "url": "https://soict.hust.edu.vn/thuc-tap-doanh-nghiep.html",
+      "last_modified": "2024-07-24T15:28:47",
+      "categories": [
+        "Sinh viên"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\thuc-tap-doanh-nghiep.md",
+      "content_length": 5728
+    },
+    {
+      "title": "Tấm gương cựu sinh viên",
+      "slug": "tam-guong-cuu-sinh-vien",
+      "url": "https://soict.hust.edu.vn/tam-guong-cuu-sinh-vien.html",
+      "last_modified": "2021-08-19T23:25:01",
+      "categories": [
+        "Sinh viên"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\tam-guong-cuu-sinh-vien.md",
+      "content_length": 986
+    },
+    {
+      "title": "Biểu mẫu và quy định dành cho sinh viên",
+      "slug": "bieu-mau-va-quy-dinh-danh-cho-sinh-vien",
+      "url": "https://soict.hust.edu.vn/bieu-mau-va-quy-dinh-danh-cho-sinh-vien.html",
+      "last_modified": "2026-01-30T14:21:51",
+      "categories": [
+        "Biểu mẫu"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\bieu-mau-va-quy-dinh-danh-cho-sinh-vien.md",
+      "content_length": 4510
+    },
+    {
+      "title": "SoICT30 Testimonials",
+      "slug": "soict30-testimonials",
+      "url": "https://soict.hust.edu.vn/soict30-testimonials",
+      "last_modified": "2025-12-31T10:05:44",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\soict30-testimonials.md",
+      "content_length": 1482
+    },
+    {
+      "title": "SoICT30",
+      "slug": "soict-30",
+      "url": "https://soict.hust.edu.vn/soict30",
+      "last_modified": "2026-03-18T09:18:10",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\soict-30.md",
+      "content_length": 7531
+    },
+    {
+      "title": "Lorem Ipsum SoICT",
+      "slug": "lorem-ipsum-soict",
+      "url": "https://soict.hust.edu.vn/lorem-ipsum-soict",
+      "last_modified": "2025-05-07T11:48:56",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\lorem-ipsum-soict.md",
+      "content_length": 2991
+    },
+    {
+      "title": "Chương trình đào tạo chuyên sâu Kỹ sư Kỹ thuật ô tô số",
+      "slug": "chuong-trinh-dao-tao-ky-su-chuyen-sau-ky-thuat-o-to-so",
+      "url": "https://soict.hust.edu.vn/otoso",
+      "last_modified": "2025-11-17T15:59:22",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\chuong-trinh-dao-tao-ky-su-chuyen-sau-ky-thuat-o-to-so.md",
+      "content_length": 9392
+    },
+    {
+      "title": "Data Science | M.Sc. Program",
+      "slug": "msc-ds",
+      "url": "https://soict.hust.edu.vn/mscdatascience",
+      "last_modified": "2025-04-17T16:53:23",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\msc-ds.md",
+      "content_length": 10935
+    },
+    {
+      "title": "SoICT Bulletin Quý 1.2025",
+      "slug": "soict-bulletin-quy-1-2025",
+      "url": "https://soict.hust.edu.vn/soict-bulletin-quy-1-2025",
+      "last_modified": "2025-04-03T16:54:57",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\soict-bulletin-quy-1-2025.md",
+      "content_length": 2889
+    },
+    {
+      "title": "SoICT Science and Technology Bulletin",
+      "slug": "bulletin",
+      "url": "https://soict.hust.edu.vn/bulletin",
+      "last_modified": "2025-08-27T11:06:17",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\bulletin.md",
+      "content_length": 3935
+    },
+    {
+      "title": "Chương trình đào tạo Thạc sỹ Khoa học dữ liệu",
+      "slug": "ths-khdl",
+      "url": "https://soict.hust.edu.vn/ths.khdl",
+      "last_modified": "2025-05-13T13:52:06",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\ths-khdl.md",
+      "content_length": 10533
+    },
+    {
+      "title": "Chương trình đào tạo chuyên sâu Kỹ sư Trí tuệ nhân tạo Tạo sinh (GENERATIVE AI)",
+      "slug": "tuyen-sinh-ky-su-tri-tue-nhan-tao-tao-sinh-generative-ai",
+      "url": "https://soict.hust.edu.vn/genai",
+      "last_modified": "2025-11-17T15:59:15",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\tuyen-sinh-ky-su-tri-tue-nhan-tao-tao-sinh-generative-ai.md",
+      "content_length": 9317
+    },
+    {
+      "title": "Template và quy cách đóng quyển đồ án tốt nghiệp",
+      "slug": "template-va-quy-cach-dong-quyen-do-an-tot-nghiep",
+      "url": "https://soict.hust.edu.vn/trang-chu/template-va-quy-cach-dong-quyen-do-an-tot-nghiep",
+      "last_modified": "2023-03-06T16:44:34",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\template-va-quy-cach-dong-quyen-do-an-tot-nghiep.md",
+      "content_length": 1865
+    },
+    {
+      "title": "Summer school",
+      "slug": "summer-school",
+      "url": "https://soict.hust.edu.vn/summer-school-temp",
+      "last_modified": "2024-06-12T23:29:02",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\summer-school.md",
+      "content_length": 2877
+    },
+    {
+      "title": "Liên hệ",
+      "slug": "lien-he",
+      "url": "https://soict.hust.edu.vn/lien-he",
+      "last_modified": "2021-04-06T17:44:14",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\lien-he.md",
+      "content_length": 148
+    },
+    {
+      "title": "Trang chủ",
+      "slug": "trang-chu",
+      "url": "https://soict.hust.edu.vn/",
+      "last_modified": "2026-03-24T10:51:51",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\trang-chu.md",
+      "content_length": 14075
+    },
+    {
+      "title": "Đào tạo sau đại học",
+      "slug": "dao-tao-sau-dai-hoc",
+      "url": "https://soict.hust.edu.vn/dao-tao-sau-dai-hoc.html",
+      "last_modified": "2021-08-19T23:25:02",
+      "categories": [
+        "Đào tạo"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\dao-tao-sau-dai-hoc.md",
+      "content_length": 19
+    },
+    {
+      "title": "Đào tạo đại hoc",
+      "slug": "dao-tao-dai-hoc",
+      "url": "https://soict.hust.edu.vn/dao-tao-dai-hoc.html",
+      "last_modified": "2021-08-19T23:25:02",
+      "categories": [
+        "Đào tạo"
+      ],
+      "source_type": "post",
+      "extraction_method": "api",
+      "file_path": "posts\\dao-tao-dai-hoc.md",
+      "content_length": 15
+    },
+    {
+      "title": "SOICT30-dev",
+      "slug": "soict30-dev",
+      "url": "https://soict.hust.edu.vn/soict30-dev",
+      "last_modified": "2025-12-07T01:11:18",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\soict30-dev.md",
+      "content_length": 0
+    },
+    {
+      "title": "SoICT Q1 Bulletin",
+      "slug": "soict-q1-bulletin",
+      "url": "https://soict.hust.edu.vn/soict-q1-bulletin",
+      "last_modified": "2025-08-26T15:21:34",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\soict-q1-bulletin.md",
+      "content_length": 0
+    },
+    {
+      "title": "GNSS Workshop",
+      "slug": "gnss",
+      "url": "https://soict.hust.edu.vn/gnss",
+      "last_modified": "2024-12-09T09:06:03",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\gnss.md",
+      "content_length": 0
+    },
+    {
+      "title": "NAVIS Center",
+      "slug": "navis",
+      "url": "https://soict.hust.edu.vn/navis",
+      "last_modified": "2025-07-17T14:21:02",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\navis.md",
+      "content_length": 0
+    },
+    {
+      "title": "Winter School",
+      "slug": "winter-school",
+      "url": "https://soict.hust.edu.vn/winter-school",
+      "last_modified": "2023-10-30T14:20:11",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\winter-school.md",
+      "content_length": 0
+    },
+    {
+      "title": "Coming soon",
+      "slug": "coming-soon",
+      "url": "https://soict.hust.edu.vn/coming-soon",
+      "last_modified": "2024-07-25T16:58:11",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\coming-soon.md",
+      "content_length": 17
+    },
+    {
+      "title": "Blog",
+      "slug": "blog",
+      "url": "https://soict.hust.edu.vn/blog",
+      "last_modified": "2019-04-11T02:14:58",
+      "categories": [],
+      "source_type": "page",
+      "extraction_method": "api",
+      "file_path": "pages\\blog.md",
+      "content_length": 0
+    }
+  ]
+}
