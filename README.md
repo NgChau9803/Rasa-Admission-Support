@@ -9,7 +9,7 @@ An enterprise-grade conversational AI assistant designed to handle university ad
 ### 1. Prerequisites
 - **Python 3.10.11** (recommended)
 - **Rasa Pro License** (Required for CALM features)
-- **Google Gemini API Keys** (Supports up to 5 keys for automatic rotation)
+- **Google API Keys** (Supports up to 5 keys for automatic rotation)
 - **Pinecone API Key** (For the vector database)
 - **Node.js / Playwright** (Required only if running the `data/scrape_extras.py` scraper)
 
@@ -36,10 +36,10 @@ playwright install chromium
 ### 3. Environment Variables
 Create a `.env` file in the `./chatbot` directory with the following structure:
 ```env
-# Gemini API Keys (Rotation Pool)
-GEMINI_API_KEY_1=your_key_1
-GEMINI_API_KEY_2=your_key_2
-# ... add up to 5 keys as GEMINI_API_KEY_X
+# GEMINI API Keys (Rotation Pool)
+GOOGLE_API_KEY_1=your_key_1
+GOOGLE_API_KEY_2=your_key_2
+# ... add up to 5 keys as GOOGLE_API_KEY_X
 
 # Pinecone Config
 PINECONE_API_KEY=your_pinecone_key
@@ -65,10 +65,12 @@ OPENAI_API_KEY=dummy
    ```
 2. **Start Action Server (Terminal 1):**
    ```powershell
+   # Uses custom logic to load .env automatically
    rasa run actions
    ```
 3. **Start Rasa Assistant (Terminal 2):**
    ```powershell
+   # Uses wrapper to inject environment & enable rotation
    python rasa_env_wrapper.py inspect --debug
    ```
    *Visit `http://localhost:5005/webhooks/socketio/inspect.html` to chat.*
@@ -83,10 +85,10 @@ OPENAI_API_KEY=dummy
    cd data
    .\venv\Scripts\activate
    
-   # Version 1: Main WP Scraper (Categories, Posts, Pages)
+   # Main WP Scraper (Categories, Posts, Pages)
    python run_scraper.py
    
-   # Version 2: Administrative Procedures & Student Handbook (Playwright SPA Scraper)
+   # Administrative Procedures & Student Handbook (Playwright SPA Scraper)
    python scrape_extras.py
    ```
    *Scraped results are saved as Markdown in `data/output/posts/` and `data/output/procedures/`.*
@@ -94,13 +96,15 @@ OPENAI_API_KEY=dummy
 2. **Build Vector Database:**
    ```powershell
    cd ../chatbot
+   .\venv_rasa\Scripts\activate
    python build_vectordb.py
    ```
    *This will chunk the text, generate embeddings via Gemini, and upload them to Pinecone.*
 
 3. **Train the Model:**
    ```powershell
-   rasa train
+   # MUST use wrapper to load API keys for validation during training
+   python rasa_env_wrapper.py train
    ```
 4. **Follow Option A** to launch the assistant.
 

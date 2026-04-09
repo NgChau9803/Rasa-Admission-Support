@@ -1,5 +1,12 @@
 version: "3.1"
 
+slots:
+  greeted:
+    type: bool
+    influence_conversation: false
+    mappings:
+      - type: custom
+
 
 actions:
   - action_search_knowledge_base

@@ -12,8 +12,16 @@ from pinecone import Pinecone, ServerlessSpec
 # Load API keys from .env
 load_dotenv()
 
-if not os.getenv("GOOGLE_API_KEY"):
-    raise ValueError("GOOGLE_API_KEY is missing from .env")
+# Extract all GOOGLE_API_KEYs from environment for rotation
+google_keys = [v.strip() for k, v in os.environ.items() if k.startswith("GOOGLE_API_KEY") and v.strip()]
+
+if not google_keys and not os.getenv("GOOGLE_API_KEY"):
+    raise ValueError("GOOGLE_API_KEY or GOOGLE_API_KEY_1 is missing from .env")
+
+# Ensure the primary key is available in the standard environment variable
+if google_keys and not os.environ.get("GOOGLE_API_KEY"):
+    os.environ["GOOGLE_API_KEY"] = google_keys[0]
+
 if not os.getenv("PINECONE_API_KEY"):
     raise ValueError("PINECONE_API_KEY is missing from .env")
 
