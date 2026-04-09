@@ -1,0 +1,16 @@
+version: "3.1"
+
+
+actions:
+  - action_search_knowledge_base
+  - action_chitchat
+
+responses:
+  utter_greet:
+  - text: "Chào bạn! Tôi là chatbot hỗ trợ tuyển sinh của Trường Công nghệ Thông tin và Truyền thông (SOICT) - Đại học Bách Khoa Hà Nội. Tôi có thể giúp gì cho bạn?"
+  utter_goodbye:
+  - text: "Tạm biệt bạn! Chúc bạn một ngày vui vẻ và hy vọng sớm được gặp bạn tại SOICT."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

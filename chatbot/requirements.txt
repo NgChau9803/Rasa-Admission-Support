@@ -1,0 +1,20 @@
+# Core Rasa Pro
+rasa-pro==3.16.2
+rasa-sdk==3.16.0
+
+# RAG & Vector Database (Pinecone)
+pinecone-client[grpc]==6.0.0
+langchain-pinecone==0.2.13
+
+# AI & LLM (Google Gemini)
+langchain-google-genai==2.1.12
+google-generativeai==0.8.6
+
+# LangChain Utilities (Pinned for Rasa Pro compatibility)
+langchain-core==0.3.83
+langchain-community==0.3.31
+langchain-text-splitters==0.3.11
+
+# Infrastructure & Parsing
+python-dotenv==1.2.2
+markdown==3.10.2

@@ -33,7 +33,6 @@ venv.bak/
 
 # Rasa specific
 .rasa/
-models/
 results/
 story_graph.dot
 
@@ -60,3 +59,6 @@ data/General.md
 .DS_Store
 Thumbs.db
 
+# chatbot
+chatbot/venv_rasa
+chatbot/.python-version

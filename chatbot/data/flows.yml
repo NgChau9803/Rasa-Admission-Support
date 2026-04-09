@@ -1,0 +1,29 @@
+version: "3.1"
+
+flows:
+  # --- Main RAG Search Flow ---
+  # Triggered when user asks about SOICT admission, programs, tuition, procedures.
+  pattern_search:
+    description: "Search the SOICT knowledge base to answer questions about admission, programs, tuition fees, administrative procedures, student handbooks, and anything about SOICT / HUST university."
+    steps:
+      - action: action_search_knowledge_base
+
+  # --- Chitchat & Greeting Flow ---
+  # Handles normal conversational messages like greetings, farewells, and small talk.
+  pattern_chitchat:
+    description: "Handle casual conversation, greetings (xin chào, hello, hi, chào), farewells (tạm biệt, bye), and small talk. Respond naturally in Vietnamese."
+    steps:
+      - action: action_chitchat
+
+  # --- Silence the annoying "Is there anything else?" loop ---
+  pattern_completed:
+    description: "Override: do not prompt for follow-up after each completed flow."
+    steps:
+      - action: action_listen
+
+  # --- Silence the "I'm not trained to help with that" English fallback ---
+  # Route cannot_handle messages to the RAG search as a best-effort fallback.
+  pattern_cannot_handle:
+    description: "Fallback: when the LLM is unsure how to handle a message, try searching the knowledge base first."
+    steps:
+      - action: action_search_knowledge_base

@@ -1,0 +1,10 @@
+action_endpoint:
+  url: "http://localhost:5055/webhook"
+
+# Global LLM Model Groups Configuration for Rasa Pro
+model_groups:
+  - id: default_gemini
+    models:
+      - model: "gemini/gemini-3.1-flash-lite-preview"
+        provider: "gemini"
+        temperature: 0.2

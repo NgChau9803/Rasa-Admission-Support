@@ -1,0 +1,15 @@
+recipe: default.v1
+language: vi
+
+pipeline:
+  # The new LLM command generator for Rasa CALM
+  - name: CompactLLMCommandGenerator
+    llm:
+      model_group: default_gemini
+
+policies:
+  # Essential policies for CALM Flow routing
+  - name: FlowPolicy
+  - name: RulePolicy
+
+assistant_id: 20260409-002639-vicious-bookshelf
