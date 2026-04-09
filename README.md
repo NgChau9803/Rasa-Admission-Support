@@ -13,10 +13,19 @@ An enterprise-grade conversational AI assistant designed to handle university ad
 - **Pinecone API Key** (For the vector database)
 - **Node.js / Playwright** (Required only if running the `data/scrape_extras.py` scraper)
 
-### 2. Environment Setup
-The project uses two separate environments:
+## 🚀 Setup & Installation
 
-#### A. Chatbot Environment
+Before running the assistant, you must set up both the **Chatbot** and **Data Scraper** environments.
+
+### 1. Prerequisites
+- **Python 3.10.11** (Required)
+- **Rasa Pro License** (Required)
+- **API Keys**: Google Gemini (up to 5), Pinecone, and a dummy OpenAI key.
+
+### 2. Install Dependencies (Mandatory)
+
+#### A. Initialize Chatbot Environment
+Used for running the Rasa engine, Action Server, and Building Vector DB.
 ```powershell
 cd chatbot
 python -m venv venv_rasa
@@ -24,89 +33,77 @@ python -m venv venv_rasa
 pip install -r requirements.txt
 ```
 
-#### B. Data Scraper Environment
+#### B. Initialize Data Scraper Environment
+Used for crawling fresh data from the web.
 ```powershell
-cd data
+cd ../data
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
 playwright install chromium
 ```
 
-### 3. Environment Variables
-Create a `.env` file in the `./chatbot` directory with the following structure:
-```env
-# GEMINI API Keys (Rotation Pool)
-GOOGLE_API_KEY_1=your_key_1
-GOOGLE_API_KEY_2=your_key_2
-# ... add up to 5 keys as GOOGLE_API_KEY_X
-
-# Pinecone Config
-PINECONE_API_KEY=your_pinecone_key
-
-# Rasa Pro License
-RASA_PRO_LICENSE=your_license_string
-
-# Legacy Validation Bypass
-OPENAI_API_KEY=dummy
-```
+### 3. Configure Environment Variables
+Create a `.env` file in the `./chatbot` directory (see `.env.example` for details).
 
 ---
 
 ## 🛠 Usage Options
 
-### Option A: Run Pre-built Version (Data & Model Ready)
-*Use this if the Pinecone index is already populated and a model exists in `/models`.*
+### Option A: Run Pre-built Version (Quick Start)
+*Use this if you already have a model in `/models` but need to connect your local environment to Pinecone.*
 
-1. **Activate Virtual Environment:**
+1. **Activate Chatbot Environment:**
    ```powershell
    cd chatbot
    .\venv_rasa\Scripts\activate
    ```
-2. **Start Action Server (Terminal 1):**
+
+2. **Populate Vector Database:**
+   *Essential if your Pinecone index is empty.*
    ```powershell
-   # Uses custom logic to load .env automatically
-   rasa run actions
+   python build_vectordb.py
    ```
-3. **Start Rasa Assistant (Terminal 2):**
-   ```powershell
-   # Uses wrapper to inject environment & enable rotation
-   python rasa_env_wrapper.py inspect --debug
-   ```
-   *Visit `http://localhost:5005/webhooks/socketio/inspect.html` to chat.*
+
+3. **Launch Services:**
+   - **Terminal 1 (Action Server):** `rasa run actions`
+   - **Terminal 2 (Rasa Core):** `python rasa_env_wrapper.py inspect --debug`
 
 ---
 
-### Option B: Build from Scratch (New Data / New Model)
-*Use this to crawl fresh data, re-ingest documents, and train a fresh intelligence model.*
+### Option B: Build from Scratch (Data Refresh)
+*Use this to crawl fresh data, re-index Pinecone, and train a new model.*
 
-1. **Scrape Data (Source Knowledge):**
+1. **Scrape New Data:**
    ```powershell
    cd data
    .\venv\Scripts\activate
-   
-   # Main WP Scraper (Categories, Posts, Pages)
    python run_scraper.py
-   
-   # Administrative Procedures & Student Handbook (Playwright SPA Scraper)
    python scrape_extras.py
    ```
-   *Scraped results are saved as Markdown in `data/output/posts/` and `data/output/procedures/`.*
 
-2. **Build Vector Database:**
+2. **Re-build Vector Database:**
    ```powershell
    cd ../chatbot
    .\venv_rasa\Scripts\activate
    python build_vectordb.py
    ```
-   *This will chunk the text, generate embeddings via Gemini, and upload them to Pinecone.*
 
-3. **Train the Model:**
+3. **Train fresh Model:**
    ```powershell
-   # MUST use wrapper to load API keys for validation during training
    python rasa_env_wrapper.py train
    ```
-4. **Follow Option A** to launch the assistant.
+
+4. **Launch services** as described in Option A.
+
+---
+
+## 🧭 Data Ingestion Pipeline
+The system utilizes a 4-step RAG pipeline:
+1. **Scraping**: `data/` tools fetch raw data and save as Markdown.
+2. **Indexing**: `build_vectordb.py` chunks and embeds data into **Pinecone** (3072 dimensions).
+3. **Dialogue**: **Rasa CALM** manages the conversation flow.
+4. **Synthesis**: **Gemini 3.1 Flash Lite** generates Vietnamese responses based on retrieved context.
 
 ---
 
